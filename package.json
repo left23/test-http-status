@@ -1,0 +1,15 @@
+{
+  "name": "event-triggered-netlify-function",
+  "version": "1.0.0",
+  "description": "Demoing how event-triggered Netlify Functions work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy-check": "node deploy-failed.js"
+  },
+  "author": "Charlie Gerard",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
