@@ -1,13 +1,12 @@
 {
-  "name": "event-triggered-netlify-function",
+  "name": "test-http-status",
   "version": "1.0.0",
-  "description": "Demoing how event-triggered Netlify Functions work",
+  "description": "Testing HTTP status for a list of URLs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "deploy-check": "node deploy-failed.js"
   },
-  "author": "Charlie Gerard",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.7.0"
